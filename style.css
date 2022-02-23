@@ -47,6 +47,22 @@
     flex-direction: row;
     margin-top: 80px;   
 }
-/* .intro1 {
+.intro1 {
     margin-left: 80px;
-} */
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: #fff;
+    height: 600px;
+}
+.about h1{
+    text-align: center;
+    font-size: large;
+}
+
+.aboutsection1 {
+    margin-left: 40px;
+    margin-top: 50px;
+}
