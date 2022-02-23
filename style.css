@@ -17,9 +17,7 @@
 .span {
     color: hsl(60, 76%, 42%);
 }
-.links {
-    margin-left: 30%;
-}
+
 .logo {
     float: left;
     color: #fff;
@@ -33,6 +31,7 @@
 .navbar ul li {
     display: inline-block;
     list-style: none;
+    margin-left: 30%;
 }
 .navbar ul li a {
     color:#fff;
@@ -47,8 +46,11 @@
     flex-direction: row;
     margin-top: 80px;   
 }
+.intro{
+    margin-left: 40px;
+}
 .intro1 {
-    margin-left: 80px;
+    margin-left: 140px;
 }
 .about {
     display: flex;
