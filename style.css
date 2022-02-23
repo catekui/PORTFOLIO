@@ -12,7 +12,7 @@
     /* background-color: hsl(60, 76%, 42%); */
     line-height: 75px;
     padding: 0 100px;
-    /* margin-left: 50%; */
+
 }
 .span {
     color: hsl(60, 76%, 42%);
@@ -47,6 +47,6 @@
     flex-direction: row;
     margin-top: 80px;   
 }
-.intro1 {
+/* .intro1 {
     margin-left: 80px;
-}
+} */
