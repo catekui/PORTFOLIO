@@ -41,3 +41,15 @@
     text-transform: uppercase;
     padding: 0px 32px;
 }
+/* home css */
+.home {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;   
+}
+.intro1 {
+    margin-left: 80px;
+}
+.intro1 img {
+    
+}
