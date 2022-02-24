@@ -68,3 +68,24 @@
     margin-left: 40px;
     margin-top: 50px;
 }
+.skills h1 {
+   text-align: center;
+}
+.captioning {
+    display:flex;
+    flex-direction: row;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: flex-start;
+
+}
+.skills2 {
+    margin-left: 350px;
+}
+.marketing {
+    display:flex;
+    flex-direction: row;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: flex-start;
+}
