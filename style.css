@@ -9,7 +9,7 @@
 .navbar {
     width: 100%;
     height: 75px;
-    /* background-color: hsl(60, 76%, 42%); */
+    background-color: black;
     line-height: 75px;
     padding: 0 100px;
 
@@ -20,7 +20,7 @@
 
 .logo {
     float: left;
-    color: #fff;
+    color:#fff;
     text-transform: uppercase;
 }
 .navbar ul {
@@ -31,7 +31,7 @@
 .navbar ul li {
     display: inline-block;
     list-style: none;
-    margin-left: 30%;
+    /* margin-left: 30%; */
 }
 .navbar ul li a {
     color:#fff;
