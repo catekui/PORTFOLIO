@@ -44,7 +44,9 @@
 .home {
     display: flex;
     flex-direction: row;
-    margin-top: 80px;   
+    margin-top: 40px; 
+    background-color: chocolate;  
+    margin-bottom: 40px;
 }
 .intro{
     margin-left: 40px;
@@ -61,7 +63,6 @@
 }
 .about h1{
     text-align: center;
-    font-size: large;
 }
 
 .aboutsection1 {
@@ -71,16 +72,22 @@
 .skills h1 {
    text-align: center;
 }
+.skills {
+    background-color: chocolate;
+    color: #fff;
+}
 .captioning {
     display:flex;
     flex-direction: row;
     margin-left: 100px;
     text-align: center;
     justify-content: flex-start;
-
 }
 .skills2 {
     margin-left: 350px;
+}
+#DNA {
+    margin-top: 40px;
 }
 .marketing {
     display:flex;
@@ -88,4 +95,12 @@
     margin-left: 100px;
     text-align: center;
     justify-content: flex-start;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+}
+.skills2 {
+    margin-left: 330px;
+}
+#fep {
+    margin-top: 40px;
 }
