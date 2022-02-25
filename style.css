@@ -104,3 +104,21 @@
 #fep {
     margin-top: 40px;
 }
+/* projects */
+.projects {
+    display:flex;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.projectsideas {
+    border: 1px solid black;
+    /* margin-top: 10px; */
+}
+.projectsideas1 { 
+    flex-direction: row;
+    border: 1px solid black;
+
+
+}
