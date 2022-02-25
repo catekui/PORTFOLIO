@@ -109,22 +109,27 @@ h1 {
     text-align: center;
 }
 .projects {
-    display:flex;
-    text-align: center;
+    margin-top: 25px;
+
 }
-.projectsideas1 { 
-    display:flex;
-    flex-direction: column;
-    margin-left: 100px;
-    text-align: center;
-    justify-content: flex-start;
-    margin-top: 20px;
-}
-.projectsideas2 {
+.projectlinks { 
     display:flex;
     flex-direction: row;
-    margin-left: 100px;
     text-align: center;
-    justify-content: flex-start;
-    margin-top: 20px;  
+
+
 }
+.projectidea {
+    margin-left: 280px;
+ 
+}
+.projectideas {
+    margin-left: 150px;
+
+}
+.projectlinks2 {
+        display:flex;
+        flex-direction: row;
+        text-align: center;
+}
+
