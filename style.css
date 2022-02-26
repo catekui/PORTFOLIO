@@ -110,6 +110,7 @@ h1 {
 }
 .projects {
     margin-top: 25px;
+    background-color: chocolate;
 
 }
 .projectlinks { 
@@ -131,5 +132,10 @@ h1 {
         display:flex;
         flex-direction: row;
         text-align: center;
+}
+/* contact page */
+.contact {
+    text-align: center;
+    background-color: chocolate;
 }
 
