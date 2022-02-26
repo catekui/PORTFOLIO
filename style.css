@@ -111,12 +111,13 @@ h1 {
 .projects {
     margin-top: 25px;
     background-color: chocolate;
+    color: white;
 
 }
 .projectlinks { 
     display:flex;
     flex-direction: row;
-    text-align: center;
+    /* text-align: center; */
 
 
 }
@@ -125,17 +126,21 @@ h1 {
  
 }
 .projectideas {
-    margin-left: 150px;
+    margin-left: 50px;
 
+}
+.projectideas1 {
+    margin-left: 100px;
 }
 .projectlinks2 {
         display:flex;
         flex-direction: row;
-        text-align: center;
+        /* text-align: center; */
 }
 /* contact page */
 .contact {
     text-align: center;
     background-color: chocolate;
+    color: #fff;
 }
 
