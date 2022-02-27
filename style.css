@@ -12,6 +12,9 @@
     background-color: black;
     line-height: 75px;
     padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .span {
@@ -47,6 +50,7 @@
     margin-top: 40px; 
     background-color: chocolate;  
     margin-bottom: 40px;
+    flex-wrap: wrap;
 }
 .intro{
     margin-left: 40px;
@@ -60,6 +64,7 @@
     background-color: black;
     color: #fff;
     height: 600px;
+    flex-wrap: wrap;
 }
 .about h1{
     text-align: center;
@@ -72,9 +77,6 @@
 .skills h1 {
    text-align: center;
    /* margin-left: 100px; */
-}
-.skills1 {
-    /* margin-left: 100px; */
 }
 .skills {
     background-color: chocolate;
@@ -144,4 +146,48 @@ h1 {
     background-color: chocolate;
     color: #fff;
 }
+
+/* Media queries */
+@media only screen and (max-width: 400px) {
+    .navbar {
+        width:100%;     
+        height: auto;
+    }
+    .navbar li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .home {
+        width: 100%;
+        height: auto;
+        /* margin-left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column; */
+    }
+    .home .intro {
+        height: 70px;
+        width: 100%;
+    }
+    .intro1 img {
+        width: 300px;
+        height: auto;
+        margin-left: -100px;
+        margin-top: 90px;
+
+    }
+    .about {
+        width: 100%;
+        height: auto;
+    }
+    .aboutsection img {
+        width:150%;
+        height:300px;
+
+        
+    }
+}
+    
 
