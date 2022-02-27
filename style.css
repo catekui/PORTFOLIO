@@ -88,6 +88,7 @@
     margin-left: 100px;
     text-align: center;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .skills2 {
     margin-left: 50px;
@@ -104,6 +105,7 @@
     justify-content: flex-start;
     margin-top: 20px;
     /* border: 2px solid red; */
+    flex-wrap: wrap;
 }
 .skills2 {
     margin-left: 330px;
@@ -125,6 +127,7 @@ h1 {
     display:flex;
     flex-direction: row;
     /* text-align: center; */
+    flex-wrap: wrap;
 }
 .projectidea {
     margin-left: 280px;
@@ -137,6 +140,7 @@ h1 {
 }
 .projectlinks2 {
         display:flex;
+        flex-wrap: wrap;
         flex-direction: row;
         /* text-align: center; */
 }
@@ -184,9 +188,35 @@ h1 {
     }
     .aboutsection img {
         width:150%;
-        height:300px;
-
+        height:300px;   
+    }
+    .skills {
+        width: 100%;
+        height: auto;
+    }
+    .skills1 {
+        width:150%;
+        height:300px;  
+        margin-left: -100px; 
+        margin-bottom: 100px; 
+    }
+    .skills2 {
+        width:150%;
+        height:300px;  
+        margin-left: -100px; 
+        margin-bottom: 100px; 
+    }
+    .projectidea{
+        width:150%;
+        height:300px; 
+        margin-left: 6px;
         
+    }
+    .projectideas1 {
+        width:150%;
+        height:300px; 
+        margin-left: 4px; 
+        margin-top: -20px;
     }
 }
     
